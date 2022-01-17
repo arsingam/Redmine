@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+
+ServerAdmin admin@example.com
+Servername hostname
+DocumentRoot /var/www/html/
+
+<Location /redmine>
+RailsEnv production
+RackBaseURI /redmine
+Options -MultiViews
+</Location>
+
+</VirtualHost>
