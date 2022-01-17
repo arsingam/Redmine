@@ -1,13 +1,13 @@
 # Default setup is given for MySQL 5.7.7 or later.
 # Examples for PostgreSQL, SQLite3 and SQL Server can be found at the end.
 # Line indentation must be 2 spaces (no tabs).
-production:
-  adapter: mysql2
-  database: redmine
-  host: localhost
-  username: root
-  password: "password"
-  encoding: utf8mb4
+# production:
+#   adapter: mysql2
+#   database: redmine
+#   host: localhost
+#   username: root
+#   password: "password"
+#   encoding: utf8mb4
 
 # development:
 #   adapter: mysql2
@@ -31,6 +31,14 @@ production:
  # encoding: utf8mb4
 
 # PostgreSQL configuration example
+hostname : database-2.cv9axuybvsog.us-east-2.rds.amazonaws.com
+port : 5432
+username : application_user
+password: password123
+Database : application
+schema : app
+
+
 #production:
  # adapter: postgresql
   #database: redmine
